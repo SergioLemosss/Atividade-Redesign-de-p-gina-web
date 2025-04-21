@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paróquia São José Operário</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 150px;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      background-color: #34495e;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 0.5rem;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero {
+      background: #ecf0f1;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .info-extra {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #ffffff;
+    }
+
+    .info-extra strong {
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .info-extra a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+    }
+
+
+    .noticias {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .noticia {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .noticia img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+
+    .noticia h3 {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .blocos-lado-a-lado {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+  </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; max-width: 1000px; margin: 0 auto;">
+          <img src="https://saojosefsa.com.br/wp-content/uploads/2017/07/2017-07-06.png" alt="Logotipo da Paróquia São José Operário" style="max-height: 150px; margin-bottom: 0.5rem;">
+      
+          <div class="info-extra" style="text-align: right; max-width: 400px;">
+            <strong><a href="https://saojosefsa.com.br/radio.html" style="color: #000000;" >OUÇA A RÁDIO AO VIVO</a></strong>
+            <strong>Endereço:</strong> Praça São Vicente S/N Pau Ferro – Centro - Formosa, GO<br>
+            <strong>Telefone:</strong> (61) 3631.1796<br>
+            <strong>Horários das Missas:</strong><br>
+            De segunda a sábado às 19h<br>
+            Domingos às 8h, 17h e 19h na Igreja São José Operário<br>
+            e às 10h00 na Igreja Santa Luísa de Marillac<br>
+            <a href="#" >Ver mais</a>
+          </div>
+        </div>
+      </header>
+
+  <nav aria-label="Menu principal">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#noticias">Notícias</a></li>
+      <li><a href="#mensagem">Mensagem</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Bem-vindo à nossa paróquia</h2>
+      <p>Participe das celebrações e acompanhe nossas atividades.</p>
+      <a href="https://saojosefsa.com.br/publicacoes-do-pe-joacir-dabadia">
+      <img src="https://saojosefsa.com.br/wp-content/uploads/2021/06/banner-pubs-pe-joacir.png" alt="Banner de publicação do Pe. Joacir">
+      </a>
+    </section>
+
+    <section id="noticias">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h2 style="margin: 0;">Notícias da Paróquia</h2>
+        <a href="https://saojosefsa.com.br/canal/noticias-da-paroquia" style="font-size: 0.95rem; color: #2c3e50; text-decoration: underline;">Leia mais</a>
+      </div>      
+      <div class="noticias">
+        <div class="noticia">
+          <a href="https://saojosefsa.com.br/musica-de-santa-rita-de-cassia-de-romerio-marques.html">
+            <img src="https://saojosefsa.com.br/wp-content/uploads/2024/10/caio-silva-C7RFkKvThG4-unsplash-220x147.jpg" alt="Música de Santa Rita de Cássia">
+          </a>
+          <h3>Música de Santa Rita de Cássia</h3>
+          <p>Canção dedicada à Santa Rita, composta por Romerio Marques.</p>
+        </div>
+        <div class="noticia">
+          <a href="https://saojosefsa.com.br/cerco-de-jerico-eucaristico.html">
+            <img src="https://saojosefsa.com.br/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-18-at-10.29.14-200x200.jpeg" alt="Cerco de Jericó Eucarístico">
+          </a>
+          <h3>Cerco de Jericó Eucarístico</h3>
+          <p>De 03 a 12 de outubro, participe das orações e adorações.</p>
+        </div>
+      </div>      
+
+    <section id="mensagem">
+      <h2>Mensagem do Pároco</h2>
+      <p>Leia a nova carta sobre a gratidão a Deus escrita pelo Pe. Fausto.</p>
+    </section>
+
+    <section id="eventos">
+      <h2>Próximos Eventos</h2>
+      <p>Confira nossa programação especial para este mês e participe!</p>
+    </section>
+    <div class="blocos-lado-a-lado">
+        <section id="enquete" style="flex: 1; min-width: 280px; max-width: 320px; background-color: #ffffff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Enquete</h2>
+            <form style="text-align: left;">
+            <p><strong>Com que frequência você frequenta nossa paróquia?</strong></p>
+            <label><input type="radio" name="frequencia" value="sempre"> Todos os dias</label><br>
+            <label><input type="radio" name="frequencia" value="as_vezes"> 2 vez por semana</label><br>
+            <label><input type="radio" name="frequencia" value="raramente"> Somente aos domingos</label><br>
+            <label><input type="radio" name="frequencia" value="nunca"> Poucas vezes no mês</label><br><br>
+            <button type="submit" style="padding: 0.5rem 1rem; background-color: #2c3e50; color: white; border: none; border-radius: 4px; cursor: pointer;">Votar</button>
+            </form>
+        </section>
+        
+        <section id="curriculo" style="flex: 1; min-width: 280px; max-width: 320px; background-color: #ecf0f1; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <h2 style="text-align: center; margin-bottom: 1rem;">Anuncie seu Currículo</h2>
+          <p style="text-align: center; max-width: 700px; margin: 0 auto 1.5rem auto;">
+            A Paróquia oferece um espaço para divulgação de currículos da comunidade. Se você está em busca de uma oportunidade, envie seu currículo para que possamos ajudar a divulgar.
+          </p>
+          <div style="text-align: center;">
+            <a href="https://saojosefsa.com.br/curriculos" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+              Enviar Currículo
+            </a>
+          </div>
+        </section>
+        
+        
+        <section id="newsletter" style="flex: 1; min-width: 280px; max-width: 320px; background-color: #ffffff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Inscreva-se na nossa Newsletter</h2>
+            <form style="display: flex; flex-direction: column; gap: 1rem;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+        
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+        
+            <button type="submit" style="padding: 0.75rem; background-color: #2c3e50; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">Cadastrar</button>
+            </form>
+        </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Paróquia São José Operário | Desenvolvido com foco em acessibilidade e usabilidade.</p>
+  </footer>
+</body>
+</html>
