@@ -1,5 +1,7 @@
 # 🌐 Site da Paróquia São José Operário
 
+## [Acesse aqui o site remodelado](https://sergiolemosss.github.io/IHC-Atividade-Redesign-de-pagina-web/)
+
 ## 🎯 Objetivo
 
 Desenvolver uma página institucional moderna, acessível e responsiva para a **Paróquia São José Operário**, localizada em Formosa - GO. O site tem como objetivo principal divulgar informações relevantes da paróquia, como horários de missa, eventos, notícias, mensagens do pároco e formulários interativos para a comunidade.
