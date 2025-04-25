@@ -4,7 +4,7 @@
 
 Desenvolver uma página institucional moderna, acessível e responsiva para a **Paróquia São José Operário**, localizada em Formosa - GO. O site tem como objetivo principal divulgar informações relevantes da paróquia, como horários de missa, eventos, notícias, mensagens do pároco e formulários interativos para a comunidade.
 
-Este projeto foi elaborado como parte das atividades acadêmicas do curso de **Análise e Desenvolvimento de Sistemas**.
+Este projeto foi elaborado como parte das atividades acadêmicas do curso de **Ciência da Computação**.
 
 ## 🛠️ Tecnologias Utilizadas
 
